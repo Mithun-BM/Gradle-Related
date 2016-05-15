@@ -1,0 +1,44 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+GRADLE USEFUL COMMANDS
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+gradle --help												- lists 
+
+gradle --version											- shows the installed gradle version.
+
+gradle tasks												-  lists all available tasks.
+
+gradle assemble 											- Assembles all the archives in the project.
+
+gradle compileJava 											- Compiles production Java source files using javac.
+
+gradle compileTestJava										- Compiles test Java source files using javac.
+
+gradle clean												- cleans the previous build. 
+
+gradle build												- Performs a full build of the project.
+
+gradle clean build											- Performs cleaning of the previous build followed by a full build of the project. 
+
+gradle test													- runs the unit tests.
+
+gradle test --tests *SomeSpecificTest						- to run an individual test.
+
+gradle test --tests all.in.specific.package*				- to run all the tests in a particular package.
+
+gradle clean build -x test									- cleans and builds skipping the testcases.
+
+gradle clean build --refresh-dependencies					- refresh dependencies and builds.
+
+
+gradle eclipse 												- Generates all Eclipse configuration files
+gradle cleanEclipse 										- Removes all Eclipse configuration files
+gradle cleanEclipseProject 									- Removes the .project file.
+gradle cleanEclipseClasspath 								- Removes the .classpath file.
+gradle cleanEclipseJdt 										- Removes the .settings/org.eclipse.jdt.core.prefs file.
+gradle eclipseProject 										- Generates the .project file.
+gradle eclipseClasspath 									- Generates the .classpath file.
+gradleeclipseJdt 											- Generates the .settings/org.eclipse.jdt.core.prefs file.
+
+
+

@@ -1,0 +1,8 @@
+
+
+Step 1 - Go to Help --> Eclipse Marketplace --> Install Gradle IDE Pack eclipse plugin.
+
+
+Step 2 - Go to windows --> Preferences --> Gradle --> 
+
+//still have to brainstorm on this
